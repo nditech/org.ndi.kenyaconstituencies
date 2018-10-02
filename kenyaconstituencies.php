@@ -23,52 +23,135 @@ function kenyaconstituencies_listcounties() {
       'Sotik',
     ),  
     'Bungoma' => array(
+      'Bumula',
+      'Kabuchai',
+      'Kanduyi',
+      'Kimilili',
+      'Mt. Elgon',
+      'Sirisia',
+      'Tongaren',
+      'Webuye East',
+      'Webuye West',
     ),  
     'Busia' => array(
-    'Elgeyo Marakwet' => array(
-    'Embu' => array(
-    'Garissa' => array(
-    'Homa Bay' => array(
-    'Isiolo' => array(
-    'Kajiado' => array(
-    'Kakamega' => array(
-    'Kericho' => array(
-    'Kiambu' => array(
-    'Kilifi' => array(
-    'Kirinyaga' => array(
-    'Kisii' => array(
-    'Kisumu' => array(
-    'Kitui' => array(
-    'Kwale' => array(
-    'Laikipia' => array(
-    'Lamu' => array(
-    'Machakos' => array(
-    'Makueni' => array(
-    'Mandera' => array(
-    'Marsabit' => array(
-    'Meru' => array(
-    'Migori' => array(
-    'Mombasa' => array(
-    'Murang'a' => array(
-    'Nairobi' => array(
-    'Nakuru' => array(
-    'Nandi' => array(
-    'Narok' => array(
-    'Nyamira' => array(
-    'Nyandarua' => array(
-    'Nyeri' => array(
-    'Samburu' => array(
-    'Siaya' => array(
-    'Taita-Taveta' => array(
-    'Tana River' => array(
-    'Tharaka Nithi' => array(
-    'Trans-Nzoia' => array(
-    'Turkana' => array(
-    'Uasin Gishu' => array(
-    'Vihiga' => array(
-    'Wajir' => array(
-    'West Pokot' => array( 
+      'Budalangi',
+      'Butula',
+      'Funyula',
+      'Matayos',
+      'Nambale',
+      'Teso North',
+      'Teso South',
     ),
+    'Elgeyo Marakwet' => array(
+      'Keiyo North',
+      'Keiyo South',
+      'Mawakwet East',
+      'Marakwet West',
+    ),  
+    'Embu' => array(
+      'Manyatta',
+      'Mbeere North',
+      'Mbeere South',
+      'Runyenjes',
+    ),  
+    'Garissa' => array(
+      'Balambala',
+      'Dadaab',
+      'Fafi',
+      'Ijara',
+      'Lagdera',
+      'Garissa Township',
+    ),  
+    'Homa Bay' => array(
+      'Homa Bay Town',
+      'Kabondo Kasipul',
+      'Karachuonyo',
+      'Kasipul',
+      'Mbita',
+      'Ndhiwa',
+      'Rangwe',
+      'Suba',
+    ),  
+    'Isiolo' => array(
+      'Isiolo North',
+      'Isiolo South',
+    ),  
+    'Kajiado' => array(
+    ),  
+    'Kakamega' => array(
+    ),  
+    'Kericho' => array(
+    ),  
+    'Kiambu' => array(
+    ),  
+    'Kilifi' => array(
+    ),  
+    'Kirinyaga' => array(
+    ),  
+    'Kisii' => array(
+    ),  
+    'Kisumu' => array(
+    ),  
+    'Kitui' => array(
+    ),  
+    'Kwale' => array(
+    ),  
+    'Laikipia' => array(
+    ),  
+    'Lamu' => array(
+    ),  
+    'Machakos' => array(
+    ),  
+    'Makueni' => array(
+    ),  
+    'Mandera' => array(
+    ),  
+    'Marsabit' => array(
+    ),  
+    'Meru' => array(
+    ),  
+    'Migori' => array(
+    ),  
+    'Mombasa' => array(
+    ),  
+    "Murang'a" => array(
+    ),
+    'Nairobi' => array(
+    ),  
+    'Nakuru' => array(
+    ),  
+    'Nandi' => array(
+    ),  
+    'Narok' => array(
+    ),  
+    'Nyamira' => array(
+    ),  
+    'Nyandarua' => array(
+    ),  
+    'Nyeri' => array(
+    ),  
+    'Samburu' => array(
+    ),  
+    'Siaya' => array(
+    ),  
+    'Taita-Taveta' => array(
+    ),  
+    'Tana River' => array(
+    ),  
+    'Tharaka Nithi' => array(
+    ),  
+    'Trans-Nzoia' => array(
+    ),  
+    'Turkana' => array(
+    ),  
+    'Uasin Gishu' => array(
+    ),  
+    'Vihiga' => array(
+    ),  
+    'Wajir' => array(
+    ),  
+    'West Pokot' => array( 
+    ),  
   );
 
   return array($countryIso => $counties);
