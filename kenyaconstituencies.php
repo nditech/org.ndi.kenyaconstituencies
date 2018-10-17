@@ -5,7 +5,7 @@
  */
 
 function kenyaconstituencies_listcounties() {
-  $countryIso = 'NG';
+  $countryIso = 'KE';
   $counties = array(
     'Baringo' => array(
       'Baringo Central',
