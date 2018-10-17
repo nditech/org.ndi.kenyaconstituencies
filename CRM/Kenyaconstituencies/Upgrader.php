@@ -11,16 +11,15 @@ class CRM_Kenyaconstituencies_Upgrader extends CRM_Kenyaconstituencies_Upgrader_
   // upgrade tasks. They are executed in order (like Drupal's hook_update_N).
 
   /**
-   * Example: Run a couple simple queries.
+   * Force a refresh of the counties.
    *
    * @return TRUE on success
    * @throws Exception
-   *
-  public function upgrade_4200() {
-    $this->ctx->log->info('Applying update 4200');
-    CRM_Core_DAO::executeQuery('UPDATE foo SET bar = "whiz"');
-    CRM_Core_DAO::executeQuery('DELETE FROM bang WHERE willy = wonka(2)');
+   */
+  public function upgrade_1013() {
+    $this->ctx->log->info('Applying update 1013');
+    kenyaconstituencies_loadcounties();
     return TRUE;
-  } // */
+  }
 
 }
