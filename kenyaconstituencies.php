@@ -1,5 +1,17 @@
 <?php
 
+require_once 'kenyaconstituencies.civix.php';
+use CRM_Kenyaconstituencies_ExtensionUtil as E;
+
+/**
+ * Implements hook_civicrm_config().
+ *
+ * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_config
+ */
+function kenyaconstituencies_civicrm_config(&$config) {
+  _kenyaconstituencies_civix_civicrm_config($config);
+}
+
 /**
  * Return a list of all the counties
  */
